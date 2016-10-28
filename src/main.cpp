@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
     QCoreApplication app( argc, argv );
 
     std::cout << "qRubyDump v0.1 by Lee A. Stripp" << std::endl;
-    std::cout << "====================================" << std::endl;
+    std::cout << "================================" << std::endl;
 
     if( argc > 1 )
     {
@@ -59,7 +59,6 @@ int main(int argc, char *argv[])
 
         // Show results
         json.display();
-
 
     } else
     {
